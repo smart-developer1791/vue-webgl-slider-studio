@@ -1,0 +1,32 @@
+{
+  "name": "vue-webgl-slider-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --build && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "vue": "3.5.46",
+    "@lucide/vue": "1.62.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.5",
+    "@types/node": "^24.13.4",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.0",
+    "vite": "8.3.8",
+    "vue-tsc": "^3.3.11",
+    "@tailwindcss/vite": "4.2.2",
+    "tailwindcss": "4.2.2"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  },
+  "description": "The Vue implementation of Shader Slider Studio with WebGL2 transitions, live settings, and browser-local presets.",
+  "license": "MIT"
+}
